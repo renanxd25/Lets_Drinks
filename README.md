@@ -3,6 +3,6 @@ Front end feito com React.js, consumindo a API do cocktailDB! Nesse sistema é p
 Você pode ver as fotos das bebidas antes de consumir.
 
 ##Instalação##
-Clone o repositorio, depois no CMD faça
+Clone o repositorio, depois no CMD faça <br>
 -> Yarn install
 -> Yarn Start
