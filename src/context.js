@@ -6,7 +6,7 @@ const AppContext = React.createContext();
 const AppProvider = ({ children }) => {
   const [buscandoTermo, setbuscandoTermo] = useState('a');
   const [bebidas, setBebidas] = useState([]);
-  const fetchDrinks = useCallback(async () => {
+  const BuscarBebidas = useCallback(async () => {
     try {
       const response = await fetch(`${url}${buscandoTermo}`);
       const data = await response.json();
@@ -39,8 +39,8 @@ const AppProvider = ({ children }) => {
   }, [buscandoTermo]);
 
   useEffect(() => {
-    fetchDrinks();
-  }, [buscandoTermo, fetchDrinks]);
+    BuscarBebidas();
+  }, [buscandoTermo, BuscarBebidas]);
 
   return (
     <AppContext.Provider value={{ setbuscandoTermo, bebidas }}>
