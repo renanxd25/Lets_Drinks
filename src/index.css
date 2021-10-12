@@ -190,13 +190,13 @@ Cocktail
 ======
 */
 
-.cocktail {
+.bebida {
   background-color: #E622AE;
   margin-bottom: 2rem;
   box-shadow: var(--lightShadow);
   transition: var(--mainTransition);
   display:flexbox;
-  grid-template-rows: auto 5fr;
+  grid-template-rows: auto 15fr;
   border-radius: var(--mainBorderRadius);
 }
 .cocktail:hover {

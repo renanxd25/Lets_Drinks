@@ -1,14 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import Loading from '../components/Loading';
 import { useParams, Link } from 'react-router-dom';
 const url = 'https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=';
 
 const SingleCocktail = () => {
   const { id } = useParams();
-  const [loading, setLoading] = useState(true);
+  const [ setLoading] = useState(true);
   const [cocktail, setCocktail] = useState(null);
   useEffect(() => {
-    setLoading(true);
     async function getCocktail() {
       try {
         const response = await fetch(`${url}${id}`);
@@ -50,17 +48,12 @@ const SingleCocktail = () => {
         setLoading(false);
       } catch (error) {
         console.log(error);
-        setLoading(false);
       }
     }
     getCocktail();
   }, [id]);
-
-  if (loading) {
-    return <Loading />;
-  }
   if (!cocktail) {
-    return <h2 className='section-title'>Cocktail Info Not Available</h2>;
+    return <h2 className='section-title'>Bebida sem Informação</h2>;
   }
 
   const {

@@ -1,9 +1,9 @@
 import React from 'react';
-import Cocktail from './Cocktail';
 import { useGlobalContext } from '../context';
 import imagemteste from '../let.gif'
+import Bebida from './Bebida';
 
-const CocktailList = () => {
+const ListaDeBebidas = () => {
   const {cocktails } = useGlobalContext();
   if (cocktails.length < 1) {
     return (
@@ -17,11 +17,11 @@ const CocktailList = () => {
       <img className='image-neon'src={imagemteste }/>
       <div className='cocktails-center'>
         {cocktails.map((item) => {
-          return <Cocktail key={item.id} {...item} />;
+          return <Bebida key={item.id} {...item} />;
         })}
       </div>
     </section>
   );
 };
 
-export default CocktailList;
+export default ListaDeBebidas;

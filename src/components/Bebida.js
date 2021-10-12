@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Cocktail = ({ id, name, image, glass }) => {
+const Bebida = ({ id, name, image, glass }) => {
   return (
-    <article className='cocktail'>
+    <article className='bebida'>
       <div className='img-container'>
         <img src={image} alt={name} />
       </div>
@@ -18,4 +18,4 @@ const Cocktail = ({ id, name, image, glass }) => {
   );
 };
 
-export default Cocktail;
+export default Bebida;
