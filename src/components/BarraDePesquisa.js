@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import { useGlobalContext } from '../context';
 
-const SearchForm = () => {
+const Pesquisa = () => {
   const { setSearchTerm } = useGlobalContext();
   const searchValue = useRef('');
   const searchCocktail = () => {
@@ -28,4 +28,4 @@ const SearchForm = () => {
   );
 };
 
-export default SearchForm;
+export default Pesquisa;

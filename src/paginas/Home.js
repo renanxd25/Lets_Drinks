@@ -1,12 +1,12 @@
 import React from 'react';
 import ListaDeBebidas from '../components/ListaDeBebidas';
-import BarraDePesquisa from '../components/BarraDePesquisa';
+import Pesquisa from '../components/BarraDePesquisa';
 
 const Home = () => {
   return (
     <div>
       <main>
-        <BarraDePesquisa />
+        <Pesquisa />
         <ListaDeBebidas />
       </main>
     </div>
