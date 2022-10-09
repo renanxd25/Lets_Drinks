@@ -1,5 +1,5 @@
 #Deploy para Acessar o projeto em Real Time <br>
-lets-drinks.vercel.app
+http://lets-drinks.vercel.app/
 # Lets_Drinks
 Front end feito com React.js, consumindo a API do cocktailDB! Nesse sistema é possivel buscar bebidas, ver a categoria das bebidas, o tipo delas e o ingrediente de que a compõe. Você pode ver as fotos das bebidas antes de consumir. <br>
 # Organização
