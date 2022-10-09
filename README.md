@@ -1,5 +1,7 @@
 # Link para o Deploy do projeto em Real Time <br>
 http://lets-drinks.vercel.app/
+# Demonstração 
+![Alt text](https://github.com/renanxd25/Lets_Drinks/blob/main/Lets%20Drink.gif?raw=true "Demonstração")
 # Lets_Drinks
 Front end feito com React.js, consumindo a API do cocktailDB! Nesse sistema é possivel buscar bebidas, ver a categoria das bebidas, o tipo delas e o ingrediente de que a compõe. Você pode ver as fotos das bebidas antes de consumir. <br>
 # Organização
