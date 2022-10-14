@@ -1,4 +1,4 @@
-# Link para o Deploy do projeto em Real Time <br>
+# Link para o Deploy <br>
 http://lets-drinks.vercel.app/
 # Demonstração 
 ![Alt text](https://github.com/renanxd25/Lets_Drinks/blob/main/Lets%20Drink.gif?raw=true "Demonstração")
